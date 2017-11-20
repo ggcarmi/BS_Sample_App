@@ -28,20 +28,22 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZI-M5-KOs">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="messi_image" translatesAutoresizingMaskIntoConstraints="NO" id="SQG-gk-eG9">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="messi_image_4" translatesAutoresizingMaskIntoConstraints="NO" id="SQG-gk-eG9">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
                                     </imageView>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bhO-u0-Kfp">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bhO-u0-Kfp">
                                         <rect key="frame" x="20" y="143" width="265" height="43"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Suarez: Messi was born gread, Ronaldo made himself great" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UO6-74-z1m">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suarez: Messi was born gread, Ronaldo made himself great" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UO6-74-z1m">
                                                 <rect key="frame" x="2" y="0.0" width="263" height="43"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="zhS-Zg-yzr"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="1" green="0.89239075859999994" blue="0.32686913610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="UO6-74-z1m" secondAttribute="bottom" id="E1E-Ah-0cc"/>
                                             <constraint firstAttribute="trailing" secondItem="UO6-74-z1m" secondAttribute="trailing" id="F5m-b5-wsn"/>
@@ -49,43 +51,44 @@
                                             <constraint firstItem="UO6-74-z1m" firstAttribute="leading" secondItem="bhO-u0-Kfp" secondAttribute="leading" constant="2" id="zKS-U1-tpH"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VrZ-9L-ZMW">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VrZ-9L-ZMW">
                                         <rect key="frame" x="305" y="158" width="48" height="28"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isj-U4-CUh">
-                                                <rect key="frame" x="0.0" y="-1" width="21" height="29"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="24"/>
-                                                <nil key="textColor"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="/05" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIh-Zu-qb8">
+                                                <rect key="frame" x="29" y="15" width="19" height="13"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="/05" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIh-Zu-qb8">
-                                                <rect key="frame" x="23" y="15" width="25" height="13"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
-                                                <nil key="textColor"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isj-U4-CUh">
+                                                <rect key="frame" x="0.0" y="-1" width="27" height="29"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="24"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="QIh-Zu-qb8" secondAttribute="bottom" id="Cak-YM-ocg"/>
                                             <constraint firstAttribute="trailing" secondItem="QIh-Zu-qb8" secondAttribute="trailing" id="SdX-kV-YhN"/>
                                             <constraint firstItem="QIh-Zu-qb8" firstAttribute="leading" secondItem="isj-U4-CUh" secondAttribute="trailing" constant="2" id="Y0L-Qu-VmT"/>
                                             <constraint firstItem="isj-U4-CUh" firstAttribute="leading" secondItem="VrZ-9L-ZMW" secondAttribute="leading" id="gDs-jV-1as"/>
                                             <constraint firstAttribute="height" constant="28" id="h9x-eg-g2G"/>
+                                            <constraint firstItem="QIh-Zu-qb8" firstAttribute="bottom" secondItem="isj-U4-CUh" secondAttribute="bottom" id="i3r-ei-cGb"/>
                                             <constraint firstAttribute="bottom" secondItem="isj-U4-CUh" secondAttribute="bottom" id="pJ0-mG-E70"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="50" id="yTq-EM-IQt"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dIF-mC-lRg">
-                                        <rect key="frame" x="20" y="123.5" width="86.5" height="14.5"/>
+                                        <rect key="frame" x="20" y="123" width="87" height="15"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Guardian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLw-rh-CUp">
-                                                <rect key="frame" x="6" y="0.0" width="74.5" height="14.5"/>
+                                                <rect key="frame" x="6" y="0.0" width="75" height="15"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.11764705882352941" green="0.53333333333333333" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstItem="MLw-rh-CUp" firstAttribute="top" secondItem="dIF-mC-lRg" secondAttribute="top" id="0jn-FY-mZP"/>
                                             <constraint firstItem="MLw-rh-CUp" firstAttribute="leading" secondItem="dIF-mC-lRg" secondAttribute="leading" constant="6" id="GI3-ic-Y0f"/>
@@ -109,6 +112,7 @@
                                     <constraint firstAttribute="bottom" secondItem="VrZ-9L-ZMW" secondAttribute="bottom" constant="30" id="aO0-kE-l7o"/>
                                     <constraint firstAttribute="height" constant="216" id="cXN-p0-SYC"/>
                                     <constraint firstAttribute="bottom" secondItem="bhO-u0-Kfp" secondAttribute="bottom" constant="30" id="cuE-Vm-mMN"/>
+                                    <constraint firstItem="VrZ-9L-ZMW" firstAttribute="leading" secondItem="eZI-M5-KOs" secondAttribute="leading" constant="305" id="wag-OO-ESB"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -127,6 +131,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="messi_image" width="341" height="192"/>
+        <image name="messi_image_4" width="426" height="266"/>
     </resources>
 </document>
