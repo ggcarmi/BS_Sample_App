@@ -253,6 +253,7 @@
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="dxG-5R-jCg" appends="YES" id="Fpc-VX-2U9"/>
+                                            <outletCollection property="gestureRecognizers" destination="goU-2d-Iht" appends="YES" id="qb6-vP-a65"/>
                                         </connections>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q1S-oo-YiF">
@@ -328,6 +329,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="liveCommentImageView" destination="FDy-cq-S9O" id="8w9-qQ-Oew"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="dxG-5R-jCg">
@@ -335,6 +339,11 @@
                         <action selector="liveCommentButtonWasClicked:" destination="BYZ-38-t0r" id="BhI-3k-ZB3"/>
                     </connections>
                 </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="goU-2d-Iht">
+                    <connections>
+                        <action selector="swipeToChangeLiveCommentButton:" destination="BYZ-38-t0r" id="pcA-MD-K88"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
         </scene>

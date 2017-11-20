@@ -10,7 +10,10 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *liveCommentImageView;
 - (IBAction)liveCommentButtonWasClicked:(id)sender;
+//- (IBAction)swipeToChengeLiveCommentButton:(id)sender;
+- (IBAction)swipeToChangeLiveCommentButton:(id)sender;
 
 @end
 
@@ -35,4 +38,14 @@
 //    [self.videoPlayer play];
 }
 
+//- (IBAction)swipeToChengeLiveCommentButton:(id)sender {
+//    self.liveCommentImageView.image = [UIImage imageNamed:@"button_livecomment_white"];
+////    imageView.image = [UIImage imageNamed:@"myImage.png"];
+//
+//}
+
+- (IBAction)swipeToChangeLiveCommentButton:(id)sender {
+        self.liveCommentImageView.image = [UIImage imageNamed:@"button_livecomment_white"];
+
+}
 @end
