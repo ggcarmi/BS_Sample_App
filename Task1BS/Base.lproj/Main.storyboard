@@ -10,6 +10,7 @@
     </dependencies>
     <customFonts key="customFonts">
         <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
             <string>HelveticaNeue-Bold</string>
             <string>HelveticaNeue-Medium</string>
         </array>
@@ -119,20 +120,20 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cdf-mn-pG2">
                                 <rect key="frame" x="0.0" y="216" width="375" height="108"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="AkV-M8-5H1">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="AkV-M8-5H1">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="108"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sZy-72-TSF">
-                                                <rect key="frame" x="0.0" y="0.0" width="123.5" height="108"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="122.5" height="108"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Journalist Awards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6R-nY-anJ">
-                                                        <rect key="frame" x="20.5" y="78.5" width="83" height="12"/>
+                                                        <rect key="frame" x="20" y="78.5" width="83" height="12"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="10"/>
                                                         <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAe-Sb-GGt">
-                                                        <rect key="frame" x="39" y="30.5" width="44.5" height="48"/>
+                                                        <rect key="frame" x="38.5" y="30.5" width="44.5" height="48"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
                                                         <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -147,16 +148,16 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fy8-BC-gvQ">
-                                                <rect key="frame" x="125.5" y="0.0" width="124" height="108"/>
+                                                <rect key="frame" x="126.5" y="0.0" width="122" height="108"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Newspaper Awards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUX-eG-4sO">
-                                                        <rect key="frame" x="17" y="78.5" width="90" height="12"/>
+                                                        <rect key="frame" x="16" y="78.5" width="90" height="12"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="10"/>
                                                         <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gtp-gK-RtE">
-                                                        <rect key="frame" x="40" y="30.5" width="44.5" height="48"/>
+                                                        <rect key="frame" x="39" y="30.5" width="44.5" height="48"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
                                                         <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -171,7 +172,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uNl-B3-h9g">
-                                                <rect key="frame" x="251.5" y="0.0" width="123.5" height="108"/>
+                                                <rect key="frame" x="252.5" y="0.0" width="122.5" height="108"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story Awards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ma-tT-PDY">
                                                         <rect key="frame" x="30.5" y="78.5" width="62" height="12"/>
@@ -216,7 +217,6 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="q2i-ga-Pps" firstAttribute="leading" secondItem="Zj8-3W-wJT" secondAttribute="leading" constant="13" id="3iL-o4-GfB"/>
                                     <constraint firstAttribute="bottom" secondItem="q2i-ga-Pps" secondAttribute="bottom" constant="8" id="Ngg-NH-Cdn"/>
@@ -225,30 +225,81 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DWG-Ae-Kf1">
-                                <rect key="frame" x="0.0" y="393" width="375" height="130"/>
+                                <rect key="frame" x="0.0" y="393" width="375" height="110"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="31D-6Y-ZQC">
-                                        <rect key="frame" x="13" y="0.0" width="332" height="130"/>
+                                        <rect key="frame" x="13" y="0.0" width="332" height="110"/>
                                         <mutableString key="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
 </mutableString>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.48239544138715018" green="1" blue="0.22184495044739527" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="130" id="0se-qp-1qr"/>
+                                    <constraint firstAttribute="height" constant="110" id="0se-qp-1qr"/>
                                     <constraint firstItem="31D-6Y-ZQC" firstAttribute="top" secondItem="DWG-Ae-Kf1" secondAttribute="top" id="7nO-l5-2w8"/>
                                     <constraint firstAttribute="bottom" secondItem="31D-6Y-ZQC" secondAttribute="bottom" id="90m-FC-xws"/>
                                     <constraint firstItem="31D-6Y-ZQC" firstAttribute="leading" secondItem="DWG-Ae-Kf1" secondAttribute="leading" constant="13" id="BiV-tN-Pb1"/>
                                     <constraint firstAttribute="trailing" secondItem="31D-6Y-ZQC" secondAttribute="trailing" constant="30" id="K3o-Cn-V6p"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ed4-XU-4lZ">
+                                <rect key="frame" x="0.0" y="503" width="375" height="95"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button_livecomment_blue" translatesAutoresizingMaskIntoConstraints="NO" id="FDy-cq-S9O">
+                                        <rect key="frame" x="13" y="0.0" width="237" height="68"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q1S-oo-YiF">
+                                        <rect key="frame" x="18" y="68" width="344" height="27"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered By Broadsay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eon-bV-nU4">
+                                                <rect key="frame" x="5" y="0.0" width="109.5" height="13"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                                <color key="textColor" red="0.25490196078431371" green="0.25490196078431371" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="eon-bV-nU4" firstAttribute="leading" secondItem="q1S-oo-YiF" secondAttribute="leading" constant="5" id="Pbe-Fy-2jc"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eon-bV-nU4" secondAttribute="trailing" constant="20" symbolic="YES" id="TmB-ve-gqF"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="q1S-oo-YiF" secondAttribute="trailing" constant="13" id="2Ne-ba-tQg"/>
+                                    <constraint firstItem="q1S-oo-YiF" firstAttribute="leading" secondItem="Ed4-XU-4lZ" secondAttribute="leading" constant="18" id="Iej-Wo-kZy"/>
+                                    <constraint firstAttribute="bottom" secondItem="q1S-oo-YiF" secondAttribute="bottom" id="KHi-QY-ao5"/>
+                                    <constraint firstItem="FDy-cq-S9O" firstAttribute="leading" secondItem="Ed4-XU-4lZ" secondAttribute="leading" constant="13" id="L3u-mP-sh7"/>
+                                    <constraint firstItem="FDy-cq-S9O" firstAttribute="top" secondItem="Ed4-XU-4lZ" secondAttribute="top" id="SHv-LZ-7Dc"/>
+                                    <constraint firstItem="eon-bV-nU4" firstAttribute="top" secondItem="FDy-cq-S9O" secondAttribute="bottom" id="hL8-7D-O2w"/>
+                                    <constraint firstItem="q1S-oo-YiF" firstAttribute="top" secondItem="FDy-cq-S9O" secondAttribute="bottom" id="lYX-In-RH6"/>
+                                    <constraint firstAttribute="trailing" secondItem="q1S-oo-YiF" secondAttribute="trailing" constant="13" id="thw-l7-7tn"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AiI-aK-UYu">
+                                <rect key="frame" x="0.0" y="598" width="375" height="69"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWf-hu-mLS">
+                                        <rect key="frame" x="13" y="0.0" width="332" height="61"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+</string>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="uat-GC-f4d"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Ed4-XU-4lZ" firstAttribute="top" secondItem="DWG-Ae-Kf1" secondAttribute="bottom" id="1Hf-9H-biq"/>
                             <constraint firstItem="Cdf-mn-pG2" firstAttribute="top" secondItem="SQG-gk-eG9" secondAttribute="bottom" id="1ju-HK-sXU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zj8-3W-wJT" secondAttribute="trailing" id="28E-dk-Mzj"/>
                             <constraint firstItem="DWG-Ae-Kf1" firstAttribute="top" secondItem="Zj8-3W-wJT" secondAttribute="bottom" id="6si-u3-W1X"/>
@@ -258,8 +309,14 @@
                             <constraint firstItem="Zj8-3W-wJT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Fit-J2-uQy"/>
                             <constraint firstItem="Cdf-mn-pG2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="I4d-7A-XEz"/>
                             <constraint firstItem="DWG-Ae-Kf1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Idm-27-oTy"/>
+                            <constraint firstItem="Ed4-XU-4lZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NdQ-N1-Hme"/>
                             <constraint firstItem="Zj8-3W-wJT" firstAttribute="top" secondItem="AkV-M8-5H1" secondAttribute="bottom" id="OFw-ri-iQB"/>
+                            <constraint firstItem="AiI-aK-UYu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="QEn-qD-BWd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ed4-XU-4lZ" secondAttribute="trailing" id="Y8z-4K-vpB"/>
+                            <constraint firstItem="AiI-aK-UYu" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Y9z-qz-GgS"/>
                             <constraint firstItem="DWG-Ae-Kf1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aqN-zY-YMT"/>
+                            <constraint firstItem="AiI-aK-UYu" firstAttribute="top" secondItem="Ed4-XU-4lZ" secondAttribute="bottom" id="aqv-6V-iIt"/>
+                            <constraint firstItem="AiI-aK-UYu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qmg-do-8nZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eZI-M5-KOs" secondAttribute="trailing" id="sGv-zj-x8y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -271,6 +328,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="button_livecomment_blue" width="237" height="68"/>
         <image name="messi_image_4" width="426" height="266"/>
     </resources>
 </document>
