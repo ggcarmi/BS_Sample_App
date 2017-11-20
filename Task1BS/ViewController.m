@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+- (IBAction)liveCommentButtonWasClicked:(id)sender;
+
 @end
 
 @implementation ViewController
@@ -25,5 +27,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)liveCommentButtonWasClicked:(id)sender {
+    NSLog(@"live comment button was clicked");
+    
+//    self.playButton.hidden = YES;
+//    [self.videoPlayer play];
+}
 
 @end
