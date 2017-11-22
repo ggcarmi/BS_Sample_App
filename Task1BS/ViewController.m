@@ -31,14 +31,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-//- (IBAction)liveCommentButtonWasClicked:(id)sender {
-//    NSLog(@"live comment button was clicked");
-//
-////    self.playButton.hidden = YES;
-////    [self.videoPlayer play];
-//}
-
 //- (IBAction)swipeToChengeLiveCommentButton:(id)sender {
 //    self.liveCommentImageView.image = [UIImage imageNamed:@"button_livecomment_white"];
 ////    imageView.image = [UIImage imageNamed:@"myImage.png"];
@@ -58,6 +50,9 @@
 
 - (IBAction)swipeToChangeLiveCommentButtonColor:(id)sender {
     NSLog(@" swipe live comment button was swiped");
-
+    self.liveCommentImageView.center = self.view.center;
+    self.liveCommentImageView.image = [UIImage imageNamed:@"button_livecomment_white"];
+    
 }
+
 @end
