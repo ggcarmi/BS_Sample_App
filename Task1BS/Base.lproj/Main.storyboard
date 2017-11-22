@@ -340,7 +340,7 @@
         <!--View Controller-->
         <scene sceneID="QAb-5R-ucE">
             <objects>
-                <viewController id="S5x-3M-snu" sceneMemberID="viewController">
+                <viewController id="S5x-3M-snu" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ErQ-jG-u7Z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -578,6 +578,10 @@
                                                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button_livecomment_blue" translatesAutoresizingMaskIntoConstraints="NO" id="lqZ-SJ-LvG">
                                                                 <rect key="frame" x="13" y="0.0" width="237" height="68"/>
                                                                 <gestureRecognizers/>
+                                                                <connections>
+                                                                    <outletCollection property="gestureRecognizers" destination="cY8-JK-jfC" appends="YES" id="3M8-yU-e9t"/>
+                                                                    <outletCollection property="gestureRecognizers" destination="T41-3T-e5u" appends="YES" id="L8p-IV-vTK"/>
+                                                                </connections>
                                                             </imageView>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Pr-OX-ioY" userLabel="poweredByView">
                                                                 <rect key="frame" x="13" y="64" width="362" height="15"/>
@@ -667,8 +671,21 @@ It is a long established fact that a reader will be distracted by the readable c
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="94q-L3-dwr"/>
                     </view>
+                    <connections>
+                        <outlet property="liveCommentImageView" destination="lqZ-SJ-LvG" id="0rz-dw-dv6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OMH-Qd-bDh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="cY8-JK-jfC">
+                    <connections>
+                        <action selector="liveCommentButtonWasClicked:" destination="S5x-3M-snu" id="1Ti-Zv-7Ju"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="T41-3T-e5u">
+                    <connections>
+                        <action selector="swipeToChangeLiveCommentButtonColor:" destination="S5x-3M-snu" id="uhB-QU-BTY"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="792.79999999999995" y="36.431784107946029"/>
         </scene>
